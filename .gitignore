@@ -1,0 +1,25 @@
+# Folder internal Terraform (jangan di-commit)
+.terraform/
+
+# File state dan backup (berisi info sensitif seperti IP publik, password, dsb)
+*.tfstate
+*.tfstate.backup
+
+# File plan (opsional, tapi biasanya tidak perlu di-track)
+*.tfplan
+
+# File lock (jika kamu tidak mau mengunci versi provider secara global, tapi biasanya tetap aman di-track)
+.terraform.lock.hcl
+
+# File log sementara (kalau kamu pakai TF_LOG)
+crash.log
+
+# Editor dan OS files (umum)
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Optional: jika pakai Visual Studio Code
+.vscode/
