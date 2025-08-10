@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
 
   # Gunakan bridged network (akan minta pilih adapter fisik saat vagrant up)
   config.vm.network "public_network"
+  config.vm.synced_folder "./data", "/home/vagrant/linux", owner: "vagrant", group: "vagrant"
 
   # VirtualBox specific settings
   config.vm.provider "virtualbox" do |vb|

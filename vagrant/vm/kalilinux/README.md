@@ -34,5 +34,8 @@ end
 
 ## init
 ```bash
-vagrant up
+vagrant up # start
+vagrant halt # down
+
+vagrant reload # jika sudah pernah dibuat
 ```

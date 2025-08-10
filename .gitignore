@@ -24,3 +24,5 @@ Thumbs.db
 # Optional: jika pakai Visual Studio Code
 .vscode/
 .vagrant
+
+vagrant/**/data
