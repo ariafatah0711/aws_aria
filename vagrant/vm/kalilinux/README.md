@@ -34,6 +34,8 @@ end
 
 ## init
 ```bash
+mkdir ./data
+
 vagrant up # start
 vagrant halt # down
 
