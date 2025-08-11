@@ -3,7 +3,7 @@
 
 > jika ada error
 ### 1. need Microsoft Visual C++ 2019
-![alt text](images/setup_windows/image.png)
+![alt text](images/README/image.png)
 
 lakukan install ini [c++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 

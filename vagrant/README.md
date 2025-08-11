@@ -1,3 +1,8 @@
+## setup
+- [0-setup](./0_setup.md)
+- [1-init alpine](./1_init_alpine.md)
+- [2-custom config](./2_custom_config.md)
+
 - [vagrant_box_list](https://portal.cloud.hashicorp.com/vagrant/discover)
 
 # list command
